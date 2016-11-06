@@ -53,13 +53,13 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#about">Register</a>
+                        <a class="page-scroll" href="#Register">Register</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Crash Course</a>
+                        <a class="page-scroll" href="crash_course.html">Crash Course</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Voting Sites</a>
+                        <a class="page-scroll" href="votingsites.html">Voting Sites</a>
                     </li>
                 </ul>
             </div>
@@ -92,13 +92,12 @@
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>ARE YOU REGISTERED TO VOTE?</h2>
 
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-                </button>
-                <a class="navbar-brand page-scroll" href="#page-top">
+                 <a href="#contact" style="color:blue"  class="btn btn-xl" size="30">YES</a> 
+                  <a href="#download" style="color:blue"  class="btn btn-xl" >NO</a>
 
-                <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
+                <!-- <p>Grayscale is a free Bootstrap 3 theme created by Start Bootstrap. It can be yours right now, simply download the template on <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open source, and you can use it for any purpose, personal or commercial.</p>
                 <p>This theme features stock photos by <a href="http://gratisography.com/">Gratisography</a> along with a custom Google Maps skin courtesy of <a href="http://snazzymaps.com/">Snazzy Maps</a>.</p>
-                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p>
+                <p>Grayscale includes full HTML, CSS, and custom JavaScript files along with LESS files for easy customization.</p> -->
             </div>
         </div>
     </section>
@@ -108,16 +107,57 @@
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h2>WELCOME!</h2> <BR>
+                    <h6> We will use this information to pre-fill official election paperwork. When inputting your email, be sure to click "send" so you can receive reminders and other information. </h6>
+                    <h4> Let's get started. </h4>
+                    
+
+
+                    
+                    <form action="email"
+                    method="post" enctype="text/plain">
+  FIRST NAME:<br>
+  <input type="text" name="firstname" style="color: blue">
+  <br><br>
+ LAST NAME:<br>
+  <input type="text" name="lastname"  style="color: blue">
+  <br><br>
+ EMAIL <br>
+ <input type="text" name="email" style="color: blue"> <input type="submit" value="Send" style="color: blue">
+ <br><br>
+STREET ADDRESS <br>
+ <input type="text" name="streetaddress" style="color: blue">
+<br><br>
+CITY <br>
+<input type="text" name="city" style="color: blue">
+ <br><br>
+ STATE <br>
+ <select>
+  <option value="md" style="color: blue">Maryland</option>
+  <option value="va" style="color: blue">Virginia</option>
+  <option value="dc" style="color: blue">District of Columbia</option>
+</select>
+<br><br>
+ZIP <br>
+<input type="text" name="zip" style="color: blue">
+<br><br>
+
+
+
+
+
+
+
+</form>
+
+                    <a href="https://voterservices.elections.maryland.gov/OnlineVoterRegistration/InstructionsStep1" class="btn btn-default btn-lg" style="color: blue">REGISTER NOW</a>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="container content-section text-center">
+   <!--  <section id="contact" class="container content-section text-center">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2">
                 <h2>Contact Start Bootstrap</h2>
@@ -138,16 +178,16 @@
             </div>
         </div>
     </section>
-
+ -->
     <!-- Map Section -->
-    <div id="map"></div>
+    <!-- <div id="map"></div> -->
 
     <!-- Footer -->
-    <footer>
+    <!-- <footer>
         <div class="container text-center">
             <p>Copyright &copy; Your Website 2016</p>
         </div>
-    </footer>
+    </footer> -->
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
